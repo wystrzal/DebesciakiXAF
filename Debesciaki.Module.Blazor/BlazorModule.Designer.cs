@@ -26,7 +26,6 @@
             // 
             // DebesciakiBlazorModule
             // 
-            this.RequiredModuleTypes.Add(typeof(Debesciaki.Module.DebesciakiModule));
             this.RequiredModuleTypes.Add(typeof(DevExpress.ExpressApp.Blazor.SystemModule.SystemBlazorModule));
 			this.RequiredModuleTypes.Add(typeof(DevExpress.ExpressApp.Dashboards.Blazor.DashboardsBlazorModule));
 			this.RequiredModuleTypes.Add(typeof(DevExpress.ExpressApp.FileAttachments.Blazor.FileAttachmentsBlazorModule));

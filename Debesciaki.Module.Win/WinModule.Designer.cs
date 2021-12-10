@@ -26,7 +26,6 @@
             // 
             // DebesciakiWindowsFormsModule
             // 
-            this.RequiredModuleTypes.Add(typeof(Debesciaki.Module.DebesciakiModule));
             this.RequiredModuleTypes.Add(typeof(DevExpress.ExpressApp.Win.SystemModule.SystemWindowsFormsModule));
 			this.RequiredModuleTypes.Add(typeof(DevExpress.ExpressApp.Chart.Win.ChartWindowsFormsModule));
 			this.RequiredModuleTypes.Add(typeof(DevExpress.ExpressApp.Dashboards.Win.DashboardsWindowsFormsModule));
