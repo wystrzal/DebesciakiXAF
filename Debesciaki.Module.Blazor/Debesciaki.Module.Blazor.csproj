@@ -10,6 +10,7 @@
     <Authors>Debesciaki</Authors>
     <Product>Debesciaki</Product>
     <PackageProjectUrl>https://github.com/wystrzal/DebesciakiXAF</PackageProjectUrl>
+    <Version>1.0.1</Version>
   </PropertyGroup>
   <ItemGroup>
     <None Remove="Model.DesignedDiffs.xafml" />
