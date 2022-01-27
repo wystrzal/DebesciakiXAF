@@ -1,6 +1,6 @@
 ﻿using System.Drawing;
 
-namespace Debesciaki.Module.BusinessObjects
+namespace Debesciaki.Module.Interfaces
 {
     public interface IColor
     {
