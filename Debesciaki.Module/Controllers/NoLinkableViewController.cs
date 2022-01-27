@@ -6,7 +6,7 @@ namespace Debesciaki.Module.Controllers
 {
     public class NoLinkableViewController : ObjectViewController<ObjectView, INoLinkable>
     {
-        private const string linkUnlinkAction = "LinkUnlinkAction";
+        private const string LinkUnlinkActionActive = "LinkUnlinkActionActive";
         private LinkUnlinkController linkUnlinkController;
 
         protected override void OnActivated()
@@ -15,8 +15,8 @@ namespace Debesciaki.Module.Controllers
             linkUnlinkController = Frame.GetController<LinkUnlinkController>();
             if (linkUnlinkController != null)
             {
-                linkUnlinkController.LinkAction.Active.SetItemValue(linkUnlinkAction, false);
-                linkUnlinkController.UnlinkAction.Active.SetItemValue(linkUnlinkAction, false);
+                linkUnlinkController.LinkAction.Active.SetItemValue(LinkUnlinkActionActive, false);
+                linkUnlinkController.UnlinkAction.Active.SetItemValue(LinkUnlinkActionActive, false);
             }
         }
 
@@ -24,8 +24,8 @@ namespace Debesciaki.Module.Controllers
         {
             if (linkUnlinkController != null)
             {
-                linkUnlinkController.LinkAction.Active.RemoveItem(linkUnlinkAction);
-                linkUnlinkController.UnlinkAction.Active.RemoveItem(linkUnlinkAction);
+                linkUnlinkController.LinkAction.Active.RemoveItem(LinkUnlinkActionActive);
+                linkUnlinkController.UnlinkAction.Active.RemoveItem(LinkUnlinkActionActive);
             }
             base.OnDeactivated();
         }
