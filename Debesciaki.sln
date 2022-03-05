@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31702.278
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Debesciaki.Module", "Debesciaki.Module\Debesciaki.Module.csproj", "{6A635C8A-9F15-413A-B239-2D851D1DE129}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Debesciaki.Module.Win", "Debesciaki.Module.Win\Debesciaki.Module.Win.csproj", "{3127B25B-25A0-4FFB-AA24-C7C1F7B95ED9}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Debesciaki.Module.Blazor", "Debesciaki.Module.Blazor\Debesciaki.Module.Blazor.csproj", "{A3F33F6B-496D-4F36-A0DE-E42E109B8A12}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GUS.Module", "GUS.Module\GUS.Module.csproj", "{D2458B3C-2D66-4096-8940-4C4342A165DF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -34,6 +36,12 @@ Global
 		{A3F33F6B-496D-4F36-A0DE-E42E109B8A12}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
 		{A3F33F6B-496D-4F36-A0DE-E42E109B8A12}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3F33F6B-496D-4F36-A0DE-E42E109B8A12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2458B3C-2D66-4096-8940-4C4342A165DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2458B3C-2D66-4096-8940-4C4342A165DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2458B3C-2D66-4096-8940-4C4342A165DF}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{D2458B3C-2D66-4096-8940-4C4342A165DF}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{D2458B3C-2D66-4096-8940-4C4342A165DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2458B3C-2D66-4096-8940-4C4342A165DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
