@@ -41,8 +41,10 @@ namespace GUS.Module.Services
             if (data == null) return;
 
             var gusOrganizationMapper = new GusOrganizationMapper(objectSpace, data);
-
             gusOrganizationMapper.MapGusOrganization(customer);
+
+            var gusAddressMapper = new GusAddressMapper(data);
+            gusAddressMapper.MapGusAddress(customer);
 
             if (string.IsNullOrWhiteSpace(customer.CustomerName))
             {
