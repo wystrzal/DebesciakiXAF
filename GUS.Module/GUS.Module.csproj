@@ -3,8 +3,8 @@
 		<TargetFramework>net6.0</TargetFramework>
 		<Deterministic>false</Deterministic>
 		<AssemblyVersion>21.2.*</AssemblyVersion>
-		<FileVersion>21.2.5.2</FileVersion>
-		<Version>21.2.5.2</Version>
+		<FileVersion>21.2.7</FileVersion>
+		<Version>21.2.7</Version>
 		<Configurations>Debug;Release;EasyTest</Configurations>
 		<Authors>Debesciaki</Authors>
 		<Product>Debesciaki</Product>
