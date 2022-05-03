@@ -5,8 +5,8 @@ namespace GUS.Module.Interfaces
 {
     public interface ICustomer : IOrganizationGus
     {
-        public string VatNumber { get; set; }
-        public string CustomerName { get; set; }
+        public string Nip { get; set; }
+        public string Name { get; set; }
         public string Symbol { get; set; }
         public string Email { get; set; }
         public string Phone { get; set; }

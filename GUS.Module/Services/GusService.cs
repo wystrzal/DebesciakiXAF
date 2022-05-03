@@ -24,7 +24,7 @@ namespace GUS.Module.Services
 
         public async Task GetDataFromGus(ICustomer customer)
         {
-            var nip = customer.VatNumber;
+            var nip = customer.Nip;
             while (nip.Contains("-")) nip = nip.Replace("-", "");
 
             var gusHelperClient = new GusHelperClient(key);
@@ -46,9 +46,9 @@ namespace GUS.Module.Services
             var gusAddressMapper = new GusAddressMapper(data);
             gusAddressMapper.MapGusAddress(customer);
 
-            if (string.IsNullOrWhiteSpace(customer.CustomerName))
+            if (string.IsNullOrWhiteSpace(customer.Name))
             {
-                customer.CustomerName = data.Name;
+                customer.Name = data.Name;
             }
             if (string.IsNullOrWhiteSpace(customer.Symbol))
             {
