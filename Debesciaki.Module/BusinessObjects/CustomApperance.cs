@@ -1,4 +1,5 @@
-﻿using DevExpress.ExpressApp;
+﻿using DevExpress.Drawing;
+using DevExpress.ExpressApp;
 using DevExpress.ExpressApp.ConditionalAppearance;
 using DevExpress.ExpressApp.DC;
 using DevExpress.ExpressApp.Editors;
@@ -108,9 +109,9 @@ namespace Debesciaki.Module.BusinessObjects
 
         [Index(4)]
         [XafDisplayName("Syl czcionki")]
-        public FontStyle? FontStyle
+        public DXFontStyle? FontStyle
         {
-            get { return GetPropertyValue<FontStyle?>(nameof(FontStyle)); }
+            get { return GetPropertyValue<DXFontStyle?>(nameof(FontStyle)); }
             set { SetPropertyValue(nameof(FontStyle), value); }
         }
 
@@ -236,7 +237,7 @@ namespace Debesciaki.Module.BusinessObjects
         }
 
         [MemberDesignTimeVisibility(false)]
-        FontStyle? IAppearance.FontStyle
+        DXFontStyle? IAppearance.FontStyle
         {
             get { return FontStyle; }
             set

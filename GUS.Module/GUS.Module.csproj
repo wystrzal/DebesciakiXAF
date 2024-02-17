@@ -1,10 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
-		<TargetFramework>net6.0</TargetFramework>
+		<TargetFramework>net8.0</TargetFramework>
 		<Deterministic>false</Deterministic>
-		<AssemblyVersion>22.1.*</AssemblyVersion>
-		<FileVersion>22.1.3.0</FileVersion>
-		<Version>22.1.3.0</Version>
+		<Version>23.2.4</Version>
 		<Configurations>Debug;Release;EasyTest</Configurations>
 		<Authors>Debesciaki</Authors>
 		<Product>Debesciaki</Product>
@@ -17,11 +15,11 @@
 		<EmbeddedResource Include="Model.DesignedDiffs.xafml" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageReference Include="DevExpress.ExpressApp" Version="22.1.3" />
-		<PackageReference Include="DevExpress.ExpressApp.CodeAnalysis" Version="22.1.3" />
-		<PackageReference Include="DevExpress.ExpressApp.Xpo" Version="22.1.3" />
-		<PackageReference Include="DevExpress.Persistent.Base" Version="22.1.3" />
-		<PackageReference Include="DevExpress.Persistent.BaseImpl.Xpo" Version="22.1.3" />
-		<PackageReference Include="GusHelper" Version="1.0.2" />
+		<PackageReference Include="DevExpress.ExpressApp" Version="23.2.4" />
+		<PackageReference Include="DevExpress.ExpressApp.CodeAnalysis" Version="23.2.4" />
+		<PackageReference Include="DevExpress.ExpressApp.Xpo" Version="23.2.4" />
+		<PackageReference Include="DevExpress.Persistent.Base" Version="23.2.4" />
+		<PackageReference Include="DevExpress.Persistent.BaseImpl.Xpo" Version="23.2.4" />
+		<PackageReference Include="GusHelper" Version="8.0.0" />
 	</ItemGroup>
 </Project>
