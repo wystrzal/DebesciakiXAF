@@ -1,8 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
-		<TargetFramework>net8.0</TargetFramework>
+		<TargetFramework>net9.0</TargetFramework>
 		<Deterministic>false</Deterministic>
-		<Version>23.2.4</Version>
+		<Version>24.2.6</Version>
 		<Configurations>Debug;Release;EasyTest</Configurations>
 		<Authors>Debesciaki</Authors>
 		<Product>Debesciaki</Product>
@@ -15,11 +15,11 @@
 		<EmbeddedResource Include="Model.DesignedDiffs.xafml" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageReference Include="DevExpress.ExpressApp" Version="23.2.4" />
-		<PackageReference Include="DevExpress.ExpressApp.CodeAnalysis" Version="23.2.4" />
-		<PackageReference Include="DevExpress.ExpressApp.Xpo" Version="23.2.4" />
-		<PackageReference Include="DevExpress.Persistent.Base" Version="23.2.4" />
-		<PackageReference Include="DevExpress.Persistent.BaseImpl.Xpo" Version="23.2.4" />
+		<PackageReference Include="DevExpress.ExpressApp" Version="24.2.6" />
+		<PackageReference Include="DevExpress.ExpressApp.CodeAnalysis" Version="24.2.6" />
+		<PackageReference Include="DevExpress.ExpressApp.Xpo" Version="24.2.6" />
+		<PackageReference Include="DevExpress.Persistent.Base" Version="24.2.6" />
+		<PackageReference Include="DevExpress.Persistent.BaseImpl.Xpo" Version="24.2.6" />
 		<PackageReference Include="GusHelper" Version="8.0.0" />
 	</ItemGroup>
 </Project>

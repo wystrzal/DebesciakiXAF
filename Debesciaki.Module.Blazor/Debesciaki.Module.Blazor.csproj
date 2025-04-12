@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net9.0</TargetFramework>
     <DxExtendStartupHost>False</DxExtendStartupHost>
     <Deterministic>false</Deterministic>
     <Configurations>Debug;Release;EasyTest</Configurations>
@@ -17,17 +17,17 @@
     <EmbeddedResource Include="Model.DesignedDiffs.xafml" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="DevExpress.ExpressApp" Version="23.2.4" />
-    <PackageReference Include="DevExpress.ExpressApp.Blazor" Version="23.2.4" />
-    <PackageReference Include="DevExpress.ExpressApp.CodeAnalysis" Version="23.2.4" />
-    <PackageReference Include="DevExpress.ExpressApp.Dashboards.Blazor" Version="23.2.4" />
-    <PackageReference Include="DevExpress.ExpressApp.FileAttachment.Blazor" Version="23.2.4" />
-    <PackageReference Include="DevExpress.ExpressApp.Office.Blazor" Version="23.2.4" />
-    <PackageReference Include="DevExpress.ExpressApp.ReportsV2.Blazor" Version="23.2.4" />
-    <PackageReference Include="DevExpress.ExpressApp.Security.Xpo" Version="23.2.4" />
-    <PackageReference Include="DevExpress.ExpressApp.Validation.Blazor" Version="23.2.4" />
-    <PackageReference Include="DevExpress.ExpressApp.Xpo" Version="23.2.4" />
-    <PackageReference Include="DevExpress.Persistent.Base" Version="23.2.4" />
-    <PackageReference Include="DevExpress.Persistent.BaseImpl.Xpo" Version="23.2.4" />
+    <PackageReference Include="DevExpress.ExpressApp" Version="24.2.6" />
+    <PackageReference Include="DevExpress.ExpressApp.Blazor" Version="24.2.6" />
+    <PackageReference Include="DevExpress.ExpressApp.CodeAnalysis" Version="24.2.6" />
+    <PackageReference Include="DevExpress.ExpressApp.Dashboards.Blazor" Version="24.2.6" />
+    <PackageReference Include="DevExpress.ExpressApp.FileAttachment.Blazor" Version="24.2.6" />
+    <PackageReference Include="DevExpress.ExpressApp.Office.Blazor" Version="24.2.6" />
+    <PackageReference Include="DevExpress.ExpressApp.ReportsV2.Blazor" Version="24.2.6" />
+    <PackageReference Include="DevExpress.ExpressApp.Security.Xpo" Version="24.2.6" />
+    <PackageReference Include="DevExpress.ExpressApp.Validation.Blazor" Version="24.2.6" />
+    <PackageReference Include="DevExpress.ExpressApp.Xpo" Version="24.2.6" />
+    <PackageReference Include="DevExpress.Persistent.Base" Version="24.2.6" />
+    <PackageReference Include="DevExpress.Persistent.BaseImpl.Xpo" Version="24.2.6" />
   </ItemGroup>
 </Project>
